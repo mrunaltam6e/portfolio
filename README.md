@@ -1,12 +1,18 @@
-# Portfolio
+# Mrunal Vijay Tambe | Portfolio
 
-Next.js (App Router, TypeScript), Tailwind CSS, static export, deployed on Vercel.
+Live site: https://portfolio-one-gamma-63k7kiq3fh.vercel.app
+
+My personal portfolio, built with Next.js, TypeScript and Tailwind CSS, and deployed on Vercel.
+
+## Run it locally
 
     npm install
-    npm run dev      # http://localhost:3000
-    npm run build    # static site in /out
+    npm run dev
 
-- Update text, projects and links in `data/site.ts`.
-- Resume: put the PDF in `public/` (for example `public/resume.pdf`) and set `resumeFile: "/resume.pdf"` in `data/site.ts`.
+Then open http://localhost:3000.
+
+## Updating the content
+
+- Text, projects and links live in `data/site.ts`.
 - Colors live in `tailwind.config.ts`.
-- Deploy: push to GitHub, import the repo in Vercel (framework preset: Next.js).
+- To add a resume, put the PDF in `public/` and set `resumeFile` in `data/site.ts`.
