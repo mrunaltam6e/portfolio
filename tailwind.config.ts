@@ -5,7 +5,7 @@ const config: Config = {
   darkMode: "media",
   theme: {
     extend: {
-      screens: { tall: { raw: "(min-width: 1024px) and (min-height: 780px)" } },
+      screens: { tall: { raw: "(min-width: 1024px) and (min-height: 680px)" } },
       colors: {
         berry: "#5f0f40",
         crimson: "#9a031e",
